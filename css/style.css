@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+input {
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+}
+text {
+  font-size: xx-large;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  bottom: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: #faf7f0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+button {
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: aquamarine;
+
+  transition: 0.5s;
+}
+button:hover {
+  box-shadow: 0 2px 2px 1px rgb(4, 209, 141);
+}
+.a {
+  margin: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
